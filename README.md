@@ -1,6 +1,6 @@
 # Quantitative analysis of the dexamethasone side effect on human-derived young and aged skeletal muscle by myotube and nuclei segmentation using deep learning
 
-![pipeline](https://github.com/tdn02007/QA-skMCs-Seg/img/main.png)
+![pipeline](https://github.com/tdn02007/QA-skMCs-Seg/blob/main/img/main.png)
 
 
 We report an a new method for quantitative analysis of the dexamethasone side effect on human-derived young and aged skeletal muscle by simultaneous myotube and nuclei segmentation using deep learning combined with post-processing techniques. The deep learning model outputs myotube semantic segmentation, nuclei semantic segmentation, and nuclei center, and post-processing applies a watershed algorithm to accurately distinguish overlapped nuclei and identify myotube branches through skeletonization.
