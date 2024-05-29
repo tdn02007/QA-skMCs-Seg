@@ -14,9 +14,8 @@ def calculate_dice(image1, image2):
     dice = (2 * intersection + 1) / (image1.sum() + image2.sum() + 1)
     return dice
 
+
 class_form = ["cls1", "cls2", "cls3"]
-
-
 
 for form in class_form:
     data_folder = f"./results/{form}/"
